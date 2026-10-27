@@ -1,0 +1,23 @@
+Features
+- Add, view, edit, and delete household tasks.
+- Assign tasks to family members.
+- Set task priorities: Low, Medium, and High.
+- Set due dates and track overdue tasks.
+- Mark tasks as completed.
+- Filter tasks by person, priority, and status.
+- Generate a task summary report.
+- Save data automatically in a JSON file.
+
+1. Project structure
+Household-Chore-Scheduler/
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── task_manager.py
+├── report_manager.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+└── data/
+    └── tasks.json
